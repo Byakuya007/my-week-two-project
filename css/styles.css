@@ -1,6 +1,6 @@
 body {
     background-color: lightblue;
-    padding: 10%;
+    w padding: 10%;
 }
 
 h1 {
@@ -14,3 +14,5 @@ h1 {
 img {
     padding: 10%;
 }
+
+@counter-style
