@@ -4,7 +4,6 @@ let femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
 
 
 let formValidation = function() {
-    alert("form")
     let dateData = document.forms["akanEntry"]["data"].value
     let genderData = document.forms["akanEntry"]["gender"].value
 
