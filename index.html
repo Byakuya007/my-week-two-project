@@ -41,10 +41,20 @@
 
                     </div>
                 </form>
+
+
                 <div class="btn">
                     <input type="button" class="btn btn-primary" value="Get Akan Name" onclick="formValidation()">
                     <input type="button" class="btn btn-primary" value="Reset" onclick="Reset">
                 </div>
+
+                <script>
+                    function reset() {
+                        document.getElementById("myForm").reset();
+                    }
+                </script>
+
+
                 <div id="display"> </div>
                 <div class="result" id="hidden-display">
                     <!-- <div id="display">
