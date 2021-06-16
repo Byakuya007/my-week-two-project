@@ -3,10 +3,8 @@ let maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwam
 let femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 
-// alert("hello")
-
 let formValidation = function() {
-    // hideElement();
+    alert("form")
     let dateData = document.forms["akanEntry"]["data"].value
     let genderData = document.forms["akanEntry"]["gender"].value
 
@@ -42,18 +40,10 @@ let getAkanName = function(day, gender) {
     }
 }
 
-// let hideElement = function() {
-//     var x = document.getElementById(" hidden-display");
-//     x.style.display = "block";
-
-// }
 
 let unhideElement = function() {
 
     var x = document.getElementById("hidden-display");
     x.style.display = "none";
 
-}
-let reset = function() {
-    getUserDetails();
 }
